@@ -1,0 +1,20 @@
+<!doctype html>
+<html ng-app="aniModule">
+  <head>
+    <title>CatDog</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#/cat">Cat</a>
+      <a href="#/dog">Dog</a>
+      <a href="#/catdog">CatDog</a>
+      <a href="#/catanddog">Cat&amp;Dog</a>
+    </nav>
+    <div ng-view="">Finding animals...</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
+    <script src="app.js"></script>
+  </body>
+
+</html>
